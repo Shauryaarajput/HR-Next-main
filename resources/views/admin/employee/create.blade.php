@@ -35,7 +35,7 @@
                   </div>
                   <div class="col-6">
                     <label for="phone">{{ __('Cell Phone') }}</label>
-                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="{{ __('+88 (01X) XX-XXXXXX') }}" required oninput="formatPhoneNumber(this)" maxlength="19" />
+                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="{{ __('+91 XXXXXXXXXX') }}" required oninput="formatPhoneNumber(this)" maxlength="19" />
                   </div>
                   <div class="col-6">
                     <label for="dob">{{ __('Date of Birth') }}</label>

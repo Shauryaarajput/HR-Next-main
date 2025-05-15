@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-12">
                   <input type="tel" name="phone" class="form-control" id="phone" placeholder="{{ __('Primary Phone') }}" value="{{ old('phone') }}" required oninput="formatPhoneNumber(this)" maxlength="19" />
-                  {{-- <input type="text" name="phone" class="form-control" id="slug" placeholder="{{ __('Phone') }}" value="{{ old('phone') }}" /> --}}
+                  <!-- <input type="text" name="phone" class="form-control" id="slug" placeholder="{{ __('Phone') }}" value="{{ old('phone') }}" /> -->
                 </div>
                 <div class="col-6">
                   <input type="password" name="password" class="form-control" id="slug" placeholder="{{ __('Password') }}" value="{{ old('password') }}" />
